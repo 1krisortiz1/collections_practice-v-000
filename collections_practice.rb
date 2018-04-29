@@ -33,6 +33,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = 0
-  array.each { |element| element += element}
+array.sum
+  #sum = 0
+  #array.each { |element| element += element}
 end

@@ -33,6 +33,6 @@ end
 
 def find_a(array)
   array.each do |char| char.start_with? == "a"
-    array
+    char
   end
 end

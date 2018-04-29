@@ -13,7 +13,6 @@ end
 def sort_array_char_count(array)
   array.sort { |a, b|
     a.length <=> b.length}
-
 end
 
 def swap_elements(array)
@@ -31,4 +30,8 @@ end
 
 def find_a(array)
   array.select { |char| char.start_with? ("a")}
+end
+
+def sum_array(array)
+  array.sum
 end

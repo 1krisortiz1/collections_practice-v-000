@@ -17,6 +17,6 @@ end
 end
 
 def swap_elements(array)
-  element_two[1], element_three[2] = element_three[1] = element_two[2]
-  
+  array[1], array[2] = array[1] = array[2]
+
 end

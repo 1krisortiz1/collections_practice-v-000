@@ -11,9 +11,9 @@ end
 end
 
 def sort_array_char_count(array)
-  array.sort do |a, b|
-    a.length <=> b.length
-end
+  array.sort { |a, b|
+    a.length <=> b.length}
+
 end
 
 def swap_elements(array)
@@ -27,10 +27,8 @@ end
 
 def kesha_maker(array)
   array.each { |char| char[2] = "$"}
-
 end
 
 def find_a(array)
   array.select { |char| char.start_with? ("a")}
-
 end

@@ -37,6 +37,6 @@ array.inject :+
 end
 
 def add_s(array)
-  array.each { |element| element << "s"}
+  array.each { |element| element << "s" && element != 1}
 
 end

@@ -32,7 +32,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.select do |char| char.start_with? == "a"
-    char
+  array.each do |char| 
+    char.start_with? ("a")
+    array
   end
 end
